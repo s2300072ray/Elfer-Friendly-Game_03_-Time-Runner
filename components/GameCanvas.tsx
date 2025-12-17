@@ -438,11 +438,6 @@ const GameCanvas: React.FC = () => {
                  <span>{t.avoid}</span>
                </div>
             </div>
-            
-            {/* End Game Button for Testing/Manual Stop */}
-            <div className="absolute bottom-4 right-4">
-                 <button onClick={stopGame} className="text-slate-700 hover:text-slate-500 text-xs p-2">Dev: Force Stop</button>
-            </div>
           </div>
         )}
 
